@@ -33,7 +33,8 @@ div p{font-size: 25px;}
 /* Give both <p>'s inside the 3rd <div> a pink background*/
 
 
-div:nth-of-type(3)p{background-color: 
+div:nth-of-type(3)p
+{background-color: 
     pink;
  }
 
@@ -43,8 +44,9 @@ div:nth-of-type(3) p:nth-of-type(2){
 }
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
-
-em{font-size: 20px white;}
+dic:nth-of-type(3)
+em{ color: white;
+  font-size: 20px ;}
 
 /*BONUS CHALLENGES*/
 /*You may need to research some other selectors and properties*/
