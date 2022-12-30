@@ -26,15 +26,15 @@ h1{color: rgb(44, 161, 185);
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
+/* Change the color of links on hover navbar */
 .topnav a:hover {
   background-color: #ddd;
-  color: rgb(181, 83, 83);
+  color: rgb(181, 83, 83); 
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #d81e5b;
+  background-color: #d81e5b; /*home bar
   color: white;
 }
 
