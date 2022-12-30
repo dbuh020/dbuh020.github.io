@@ -1,0 +1,39 @@
+h1 {color:#1A535C;}
+
+*{font-family:Yeseva one;
+}
+    .flip-card
+    {
+        width:300px;
+        height: 450px;
+        margin:auto;
+    
+}
+.flip-card-back{
+  
+    color:rgb(255, 252, 252);
+    transform:rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.flip-card-back img{
+width:300px;
+margin-top:auto;
+
+
+}
+.flip-card-inner
+{
+    position: relative;
+    height: 100%;
+    transition:transform 0.10s;
+    transform-style:preserve-3d;
+}
+.flip-card-back, .flip-card-font{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.flip-card:hover .flip-card-inner{
+    transform:rotateY(180deg);
+}

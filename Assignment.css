@@ -1,0 +1,9 @@
+.navbar .nav > li > a, .navbar .nav > li > a:first-letter,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+display:        inline;
+color:          red;                        
+font-family:    Yeseva one;
+font-size:      1.5em;
+padding:        5px 20px;
+}
