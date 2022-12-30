@@ -1,0 +1,11 @@
+body{font-family: poppins;}
+img{
+
+    float: left;
+     width: 25%; 
+     height: auto;
+      margin: 1.66%;
+      padding: 2px;
+      box-sizing: border-box;
+      background-color: #33704E;
+    }
