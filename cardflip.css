@@ -8,9 +8,16 @@
   }
   body {
     font-family: poppins;
+   position: auto;
    
    
-   
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 15px;
   }
   .flip-card-container {
     width: 300px;
@@ -35,8 +42,7 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     display: flex;
-    justify-content:center;
-    align-items: center;
+    
     /* border-radius: 0.5rem; */
   }
   .flip-card-front {
