@@ -42,7 +42,8 @@
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
     display: flex;
-    
+    justify-content:center;
+    align-items: center;
     /* border-radius: 0.5rem; */
   }
   .flip-card-front {
