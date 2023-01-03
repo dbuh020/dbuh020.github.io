@@ -10,21 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
      <title>BFA EXPO</title>
     <link rel="stylesheet" href="cardflip.css">
-    <link rel="javascript" href="cardflip.js">
-    <style>
-          
-
-        img {
-            float: left;
-            width: 30%;
-            height: auto;
-            margin: 1.66%;
     
-        }
-    </style>
+    <style>
+        *{box-sizing: border-box
+          ;} 
+          .column{
+            float:align;
+            width:33.33%;
+            padding:10px;
+            height:300px;
+          }
+
+          .row:after{
+            content:"";
+            display:table;
+            clear:both;
+          }
+  
+
+</style>
 </head>
 <body>
-    <title>BFA - Gallery</title>
+  <title>BFA - Gallery</title>
+  <div class="row">
+    <div class="column"> 
     <div class="flip-card-container">
     <div class="flip-card">
       <div class="flip-card-front">
@@ -38,11 +47,13 @@
           Ux and Ui design creating a prototype event application for locals.
           <span>- Webdesign -</span>
         </p>
+     </div>
       </div>
-    </div>
- </div>
-  
+     
  
+
+<div class="row"></div>
+ <div class="column">
  <div class="flip-card-container">
     <div class="flip-card">
       <div class="flip-card-front">
@@ -54,9 +65,11 @@
           <span>- Graphic Design -</span>
         </p>
       </div>
-    </div>
-  </div>
+      </div>
+     
 
+<div class="row"></div>
+<div class="column"> </div>
   <div class="flip-card-container">
     <div class="flip-card">
       <div class="flip-card-front">
@@ -68,11 +81,12 @@
         
          <span>- Graphic Design -</span>
         </p>
+       
       </div>
     </div>
   </div>
 
-
+  <div class="column"> </div>
   <div class="flip-card-container">
     <div class="flip-card">
       <div class="flip-card-front">
@@ -83,10 +97,12 @@
             
           <span>- Animation-</span>
         </p>
+     
       </div>
     </div>
   </div>
 <hr>
+<div class="column"> </div>
 <div class="flip-card-container">
     <div class="flip-card">
       <div class="flip-card-front">
@@ -98,10 +114,11 @@
           <span>- Illustration-</span>
         </p>
       </div>
+      </div>
     </div>
-  </div>
 
 
+  <div class="column"></div>
   <div class="flip-card-container">
     <div class="flip-card">
       <div class="flip-card-front">
@@ -115,24 +132,6 @@
       </div>
     </div>
   </div>
-
-  <div class="flip-card-container">
-    <div class="flip-card">
-      <div class="flip-card-front">
-        <img src="nic.jpg" alt="nic">
-      </div>
-      <div class="flip-card-back">
-        <p>
-            
-          <span>- Editorial Design -</span>
-        </p>
-      </div>
-    </div>
-  </div>
-
- 
-</a>
-</div>
 </body>
 
 </html>
