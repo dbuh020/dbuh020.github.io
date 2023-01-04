@@ -1,0 +1,74 @@
+body {
+    background: #000;
+    padding: 0;
+    font-family: "Poppins";
+    color: aliceblue;
+    }
+    .img-list {
+    
+    padding: 0;
+    margin: 0;
+    }
+    .img-list li {
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    }
+    .img-list img {
+    width: 100%;
+    
+    }
+    
+    /* Image Placeholder Styles
+    -------------------------------------------------------------- */
+    .img-placeholder:before,
+    .img-placeholder:after {
+    padding-top: 20%;
+    content: "";
+    display: block;
+    color: #33704E;
+    }  
+    .img-placeholder {
+    background: #33704E;
+   line-height: 0;
+    text-align: center;
+    display: block;
+    }
+    
+    /* The hover effect
+    -------------------------------------------------------------- */
+    .img-list li:before {
+    transition: all .5s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    transform: scale(0);
+    }
+    .img-list li:hover:before {
+    opacity: .5;
+    transform: scale(1);
+    }
+    .img-list li:after {
+    transition: all .6s ease .2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    border: 1px solid #aaa;
+    background: #000;
+    opacity: 0;
+    transform: scale(0);
+    }
+    .img-list li:hover:after {
+    opacity: .35;
+    transform: scale(1);
+    }
